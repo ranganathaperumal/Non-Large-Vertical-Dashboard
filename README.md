@@ -20,70 +20,70 @@ The pipeline runs entirely in **Google Colab**, reads raw CSV exports from the F
 ### 🌐 Global View — Overview
 Regional distribution, FBF/NFBF network mix, BU utilization, and daily volume trend.
 
-![Global View Overview](docs/screenshots/01_global_view_overview.png)
+![Global View Overview](01_global_view_overview.png)
 
 ---
 
 ### 🔗 Global View — Lane Table
 Point-to-point volume mapping from Trip Source to Consignment Destination with BU split.
 
-![Global View Lane Table](docs/screenshots/02_global_view_lane_table.png)
+![Global View Lane Table](02_global_view_lane_table.png)
 
 ---
 
 ### 🗺️ Vertical View — Geographical
 Top 5 product verticals by zone, overall vertical leaders, and zone-level volume split.
 
-![Vertical View Geographical](docs/screenshots/03_vertical_view_geo.png)
+![Vertical View Geographical](03_vertical_view_geo.png)
 
 ---
 
 ### 🏭 Vertical View — Facility Dominance & Segment Analytics
 Primary and secondary vertical dominance across National and Zonal centers, with segment-level pairings.
 
-![Vertical View Facility Dominance](docs/screenshots/04_vertical_view_facility.png)
+![Vertical View Facility Dominance](04_vertical_view_facility.png)
 
 ---
 
 ### 📦 Volumetric View — KPIs & Inferences
 AI-estimated oversized shipment detection, network leakage %, and divertable HCV truck loads.
 
-![Volumetric View KPIs](docs/screenshots/05_volumetric_view_kpis.png)
+![Volumetric View KPIs](05_volumetric_view_kpis.png)
 
 ---
 
 ### 🚨 Volumetric View — Detail Grid
 Oversized verticals, affected origins, affected destinations, and strained lanes ranked by CFT load.
 
-![Volumetric View Detail](docs/screenshots/06_volumetric_view_detail.png)
+![Volumetric View Detail](06_volumetric_view_detail.png)
 
 ---
 
 ### 📊 Trend View — Day-on-Day CFT Heatmap
 Facility and lane-level average CFT tracked daily vs prior month baseline, colour-coded by deviation band.
 
-![Trend View CFT Heatmap](docs/screenshots/07_trend_view_cft_heatmap.png)
+![Trend View CFT Heatmap](07_trend_view_cft_heatmap.png)
 
 ---
 
 ### 📅 Trend View — Weekly DRR (Facility)
 Weekly Daily Run Rate and average CFT progression per facility with period-on-period change indicators.
 
-![Trend View Weekly DRR](docs/screenshots/08_trend_view_weekly_drr.png)
+![Trend View Weekly DRR](08_trend_view_weekly_drr.png)
 
 ---
 
 ### 🛣️ Trend View — Lane DRR
 Weekly DRR and average CFT at source → destination lane level with trend direction flags.
 
-![Trend View Lane DRR](docs/screenshots/09_trend_view_lane_drr.png)
+![Trend View Lane DRR](09_trend_view_lane_drr.png)
 
 ---
 
 ### 🤖 AI Data Analyst Chatbot
 Embedded local NLP bot for real-time contextual queries on the currently filtered dataset — no API calls.
 
-![AI Data Analyst Chatbot](docs/screenshots/10_chatbot.png)
+![AI Data Analyst Chatbot](10_chatbot.png)
 
 ---
 
@@ -188,13 +188,13 @@ nl-vertical-dashboard/
 ├── nl_vertical_dashboard.py        # Core pipeline script (Colab-ready)
 ├── nl_vertical_dashboard.ipynb     # Colab notebook wrapper
 │
-├── docs/
-│   └── screenshots/                # Dashboard preview images
-│       ├── global_view.png
-│       ├── vertical_view.png
-│       ├── volumetric_view.png
-│       ├── trend_view.png
-│       └── chatbot.png
+
+
+
+
+
+
+
 │
 ├── sample_data/
 │   └── sample_data.csv             # Minimal synthetic CSV for local testing
@@ -329,8 +329,8 @@ The output `NL_Vertical_Dashboard_2026.html` is a **single portable file** (~15�
 
 ## 👤 Author
 
-Built by the **Flipkart Non-Large Supply Chain Analytics** team.
-For access, questions, or onboarding new stakeholders, reach out via internal Slack or raise an issue in this repository.
+Built by **Sri Ranganatha Perumal Venkatesan**.
+For access, questions, or onboarding, raise an issue in this repository or connect via GitHub.
 
 ---
 
