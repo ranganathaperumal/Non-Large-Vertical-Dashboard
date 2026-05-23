@@ -17,15 +17,73 @@ The pipeline runs entirely in **Google Colab**, reads raw CSV exports from the F
 
 ## 📸 Dashboard Preview
 
-| View | Description |
-|---|---|
-| **Global View** | Regional distribution, FBF/NFBF mix, BU treemap, daily trend |
-| **Vertical View** | Geo-level top verticals, facility dominance, segment analytics |
-| **Volumetric View** | Oversized load detection, strained lanes/origins/destinations |
-| **Trend View** | Weekly DRR progression, Day-on-Day CFT heatmaps at facility and lane level |
-| **AI Chatbot** | Local NLP bot for real-time contextual queries on filtered data |
+### 🌐 Global View — Overview
+Regional distribution, FBF/NFBF network mix, BU utilization, and daily volume trend.
 
-> Screenshots are available in `/docs/screenshots/` (see folder structure below).
+![Global View Overview](docs/screenshots/01_global_view_overview.png)
+
+---
+
+### 🔗 Global View — Lane Table
+Point-to-point volume mapping from Trip Source to Consignment Destination with BU split.
+
+![Global View Lane Table](docs/screenshots/02_global_view_lane_table.png)
+
+---
+
+### 🗺️ Vertical View — Geographical
+Top 5 product verticals by zone, overall vertical leaders, and zone-level volume split.
+
+![Vertical View Geographical](docs/screenshots/03_vertical_view_geo.png)
+
+---
+
+### 🏭 Vertical View — Facility Dominance & Segment Analytics
+Primary and secondary vertical dominance across National and Zonal centers, with segment-level pairings.
+
+![Vertical View Facility Dominance](docs/screenshots/04_vertical_view_facility.png)
+
+---
+
+### 📦 Volumetric View — KPIs & Inferences
+AI-estimated oversized shipment detection, network leakage %, and divertable HCV truck loads.
+
+![Volumetric View KPIs](docs/screenshots/05_volumetric_view_kpis.png)
+
+---
+
+### 🚨 Volumetric View — Detail Grid
+Oversized verticals, affected origins, affected destinations, and strained lanes ranked by CFT load.
+
+![Volumetric View Detail](docs/screenshots/06_volumetric_view_detail.png)
+
+---
+
+### 📊 Trend View — Day-on-Day CFT Heatmap
+Facility and lane-level average CFT tracked daily vs prior month baseline, colour-coded by deviation band.
+
+![Trend View CFT Heatmap](docs/screenshots/07_trend_view_cft_heatmap.png)
+
+---
+
+### 📅 Trend View — Weekly DRR (Facility)
+Weekly Daily Run Rate and average CFT progression per facility with period-on-period change indicators.
+
+![Trend View Weekly DRR](docs/screenshots/08_trend_view_weekly_drr.png)
+
+---
+
+### 🛣️ Trend View — Lane DRR
+Weekly DRR and average CFT at source → destination lane level with trend direction flags.
+
+![Trend View Lane DRR](docs/screenshots/09_trend_view_lane_drr.png)
+
+---
+
+### 🤖 AI Data Analyst Chatbot
+Embedded local NLP bot for real-time contextual queries on the currently filtered dataset — no API calls.
+
+![AI Data Analyst Chatbot](docs/screenshots/10_chatbot.png)
 
 ---
 
